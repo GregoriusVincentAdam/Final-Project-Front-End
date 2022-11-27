@@ -26,3 +26,13 @@ export default class StateProps extends Component{
         )
     }
 }
+
+/*  
+Nama Kelompok:  Denver
+Nama Anggota :  Adam, Gregorius Vincent
+                Luntungan, Hendra Ucok
+                Lahengke, Gabriela
+                Kalalo, Sherren Brenda
+                Tangkeallo, Yazel Stepano
+                Lobbu, Stephen Anthony Timothy
+*/
