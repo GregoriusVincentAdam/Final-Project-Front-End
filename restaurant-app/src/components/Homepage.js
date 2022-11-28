@@ -1,7 +1,6 @@
 import React from 'react';
 import "../assets/css/templatemo-style.css";
 
-
 const Homepage = () => {
     return(
         <div className="container">
@@ -21,8 +20,8 @@ const Homepage = () => {
                     <nav className="col-md-6 col-12 tm-nav">
                         <ul className="tm-nav-ul">
                         <li className="tm-nav-li"><a href="index.html" className="tm-nav-link active">Home</a></li>
-                        <li className="tm-nav-li"><a href="about.html" className="tm-nav-link">About</a></li>
-                        <li className="tm-nav-li"><a href="contact.html" className="tm-nav-link">Contact</a></li>
+                        <li className="tm-nav-li"><a href="about.html" className="tm-nav-link active">About</a></li>
+                        <li className="tm-nav-li"><a href='./Contact.jsx' className="tm-nav-link active">Contact</a></li>
                         </ul>
                     </nav>	
                     </div>
@@ -272,11 +271,10 @@ const Homepage = () => {
                 </div>
                 </div>
             </main>
-            <footer className="tm-footer text-center">
-                <p>Copyright © 2020 Simple House 
-                | Design: <a rel="nofollow" href="https://templatemo.com">TemplateMo</a></p>
-            </footer>
         </div>
+
+        
+
     )
 };
 
