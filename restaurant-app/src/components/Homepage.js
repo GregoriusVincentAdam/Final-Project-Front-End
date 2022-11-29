@@ -9,7 +9,7 @@ const Homepage = () => {
             {/* Top box */}
             {/* Logo & Site Name */}
             <div className="placeholder">
-                <div className="parallax-window" data-parallax="scroll" data-image-src="../../public/img/simple-house-01.jpg">
+                <div className="parallax-window" data-parallax="scroll" img="/public/img/simple-house-01.jpg">
                 <div className="tm-header">
                     <div className="row tm-header-inner">
                     <div className="col-md-6 col-12">
@@ -23,7 +23,7 @@ const Homepage = () => {
                         <ul className="tm-nav-ul">
                         <li className="tm-nav-li"><a href="index.html" className="tm-nav-link active">Home</a></li>
                         <li className="tm-nav-li"><a href="about.html" className="tm-nav-link active">About</a></li>
-                        <li className="tm-nav-li"><a href="/src/components/Contact.js" className="tm-nav-link active">Contact</a></li>
+                        <li className="tm-nav-li"><a href="#Contact" className="tm-nav-link active">Contact</a></li>
                         </ul>
                     </nav>	
                     </div>
@@ -272,6 +272,7 @@ const Homepage = () => {
                     </div>
                 </div>
                 </div>
+                <Contact />
             </main>
         </div>
 

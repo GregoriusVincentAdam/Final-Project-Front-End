@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact() {
   return (
-    <div className="container">
+    <div className="container" id='Contact'>
         {/* Top box */}
         {/* Logo & Site Name */}
         <main>
