@@ -1,6 +1,7 @@
 import React from 'react';
 import "../assets/css/templatemo-style.css";
 import Contact from './Contact';
+import About from './About';
 
 
 const Homepage = () => {
@@ -272,6 +273,7 @@ const Homepage = () => {
                     </div>
                 </div>
                 </div>
+                <About />
                 <Contact />
             </main>
         </div>
