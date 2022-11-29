@@ -32,18 +32,18 @@ const Homepage = () => {
                 <div id="tm-gallery-page-pizza" className="tm-gallery-page">
                                
                 {
-                     menu.map(item => {
+                    menu.map(item => {
                         return(
                              <article className="col-lg-3 col-md-4 col-sm-6 col-20 tm-gallery-item">
-                                    <figure>
-                                        <img src="img/gallery/01.jpg" alt="Image" className="img-fluid tm-gallery-img" />
-                                        <figcaption>
+                                <figure>
+                                    <img src="img/gallery/01.jpg" alt="Image" className="img-fluid tm-gallery-img" />
+                                    <figcaption>
                                         <h4 className="tm-gallery-title">{item.judul}</h4>
                                         <p className="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
                                         <p className="tm-gallery-price">{item.harga}</p>
-                                        </figcaption>
-                                    </figure>
-                                </article>
+                                    </figcaption>
+                                </figure>
+                            </article>
                             
                         )
                      })
