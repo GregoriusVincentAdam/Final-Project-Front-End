@@ -1,12 +1,21 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import "../assets/css/templatemo-style.css";
 import Contact from './Contact';
 import About from './About';
+import axios from "axios";
 import Top from './Top';
 
 
 
 const Homepage = () => {
+
+    const [menu, setMenu] = useState([]);
+    useEffect(()=>{
+        axios
+        .get("http://localhost:3004/menu")
+        .then((res) => setMenu (res.data));
+    },[]);
+
     return(
         <div className="container">
             <Top />
@@ -26,17 +35,24 @@ const Homepage = () => {
                 <div className="row tm-gallery">
                 {/* gallery page 1 */}
                 <div id="tm-gallery-page-pizza" className="tm-gallery-page">
-                    <article className="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-                    <figure>
-                        <img src="img/gallery/01.jpg" alt="Image" className="img-fluid tm-gallery-img" />
-                        <figcaption>
-                        <h4 className="tm-gallery-title">Fusce dictum finibus</h4>
-                        <p className="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
-                        <p className="tm-gallery-price">$45 / $55</p>
-                        </figcaption>
-                    </figure>
-                    </article>
-                    
+                               
+                {
+                     menu.map(item => {
+                        return(
+                             <article className="col-lg-3 col-md-4 col-sm-6 col-20 tm-gallery-item">
+                                    <figure>
+                                        <img src="img/gallery/01.jpg" alt="Image" className="img-fluid tm-gallery-img" />
+                                        <figcaption>
+                                        <h4 className="tm-gallery-title">{item.judul}</h4>
+                                        <p className="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
+                                        <p className="tm-gallery-price">{item.harga}</p>
+                                        </figcaption>
+                                    </figure>
+                                </article>
+                            
+                        )
+                     })
+                }
                 </div> 
                 </div>
                
