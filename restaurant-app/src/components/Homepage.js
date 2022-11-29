@@ -68,8 +68,6 @@ const Homepage = () => {
                     <br></br>
                         <h2 style={{color: 'rgba(110, 1, 1, 1)'}}>Terbukti Terkenal!!!</h2> <br></br>
                         <p className="tm-mb-45">See??? Bahkan Jess No Limit dan Sisca Kohl pernah makang disiniii :p. So, tunggu apalagi guys? Pesan jo sekarang! ^^</p>
-                        <a>Mo suka lia sapa-sapa leh yang pernah makang disini? Coba klik di tombol "Lia laeng" di bawah :D</a>
-                        <br></br><br></br><br></br><a href="about.html" className="tm-btn tm-btn-default tm-right" style={{color: 'rgba(110, 0, 0, 1)'}}>Lia laeng</a>
                     </div>
                     </div>
                 </div>
