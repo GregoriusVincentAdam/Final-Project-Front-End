@@ -2,7 +2,8 @@ import React from 'react'
 
 export default function About() {
   return (
-    <main>
+    <div id='about'>
+        <main>
   <header className="row tm-welcome-section">
     <h2 className="col-12 text-center tm-section-title">About Simple House</h2>
     <p className="col-12 text-center">This is about page of simple house template. 
@@ -124,7 +125,7 @@ export default function About() {
       </div>
     </div>
   </div>
-</main>
-
+        </main>
+    </div>
   )
 }
