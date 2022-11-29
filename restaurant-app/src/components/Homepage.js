@@ -5,8 +5,6 @@ import About from './About';
 import axios from "axios";
 import Top from './Top';
 
-
-
 const Homepage = () => {
 
     const [menu, setMenu] = useState([]);
@@ -28,10 +26,7 @@ const Homepage = () => {
                     <h1 className="col-12 text-center tm-section-title">Menu Makanan</h1>
                 </div>
 
-
-
-
-                {/* Gallery */}
+                {/* Menu */}
                 <div className="row tm-gallery">
                 {/* gallery page 1 */}
                 <div id="tm-gallery-page-pizza" className="tm-gallery-page">
