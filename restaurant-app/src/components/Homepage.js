@@ -2,49 +2,21 @@ import React from 'react';
 import "../assets/css/templatemo-style.css";
 import Contact from './Contact';
 import About from './About';
+import Top from './Top';
 
 
 
 const Homepage = () => {
     return(
         <div className="container">
-            {/* Top box */}
-            {/* Logo & Site Name */}
-            <div className="placeholder">
-                <div className="parallax-window" data-parallax="scroll">
-                    {/* <img src='../../public/img/simple-house-01.jpg' alt='Cover' /> */}
-                <div className="tm-header">
-                    <div className="row tm-header-inner">
-                    <div className="col-md-6 col-6">
-                        <div className="tm-site-text-box">
-                        <h1 className="tm-site-title">Warong Kampoeng</h1>
-                        <h6 className="tm-site-description">Cita Rasa Manado Skali..</h6>	
-                        </div>
-                    </div>
-                    <nav className="col-md-6 col-12 tm-nav">
-                        <ul className="tm-nav-ul">
-                        <li className="tm-nav-li"><a href="index.html" className="tm-nav-link active">Home</a></li>
-                        <li className="tm-nav-li"><a href="#about" className="tm-nav-link active">About</a></li>
-                        <li className="tm-nav-li"><a href="#Contact" className="tm-nav-link active">Contact</a></li>
-                        </ul>
-                    </nav>	
-                    </div>
-                </div>
-                </div>
-            </div>
+            <Top />
             <main>
                 <header className="row tm-welcome-section">
-                <h2 className="col-12 text-center tm-section-title">Welcome to Simple House</h2>
-                <p className="col-12 text-center">Total 3 HTML pages are included in this template. Header image has a parallax effect. You can feel free to download, edit and use this TemplateMo layout for your commercial or non-commercial websites.</p>
+                <h2 className="col-12 text-center tm-section-title">Marijo Makang Disini Kawan</h2>
+                <p className="col-12 text-center">Budayakan malas memasa, karena memasa torang pe kerja. Singgah jo, nanti om deng tanta yang ator ngoni pe makang. Mar jang lupa bayar neh, nda mahal-mahal skali kwa eh.</p>
                 </header>
                 <div className="tm-paging-links">
-                <nav>
-                    <ul>
-                    <li className="tm-paging-item"><a href="#" className="tm-paging-link active">Pizza</a></li>
-                    <li className="tm-paging-item"><a href="#" className="tm-paging-link">Salad</a></li>
-                    <li className="tm-paging-item"><a href="#" className="tm-paging-link">Noodle</a></li>
-                    </ul>
-                </nav>
+                    <h1 className="col-12 text-center tm-section-title">Menu Makanan</h1>
                 </div>
                 {/* Gallery */}
                 <div className="row tm-gallery">
