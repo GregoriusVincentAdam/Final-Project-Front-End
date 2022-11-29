@@ -1,6 +1,6 @@
 import React from 'react';
 import "../assets/css/templatemo-style.css";
-import Contact from './Contact';
+import Contact from './contact';
 import About from './About';
 import Top from './Top';
 
