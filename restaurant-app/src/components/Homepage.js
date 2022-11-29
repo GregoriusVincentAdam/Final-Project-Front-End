@@ -60,18 +60,20 @@ const Homepage = () => {
                 <div className="row">
                     <div className="col-md-6">
                     <figure className="tm-description-figure">
-                        <img src="img/img-01.jpg" alt="Image" className="img-fluid" />
+                        <img src="https://asset.kompas.com/crops/pjtMmztUVAA5dh3m4aYd289jugo=/0x0:773x515/750x500/data/photo/2022/08/30/630d6bda8bef1.png" alt="Image" className="img-fluid" />
                     </figure>
                     </div>
                     <div className="col-md-6">
                     <div className="tm-description-box"> 
-                        <h4 className="tm-gallery-title">Maecenas nulla neque</h4>
-                        <p className="tm-mb-45">Redistributing this template as a downloadable ZIP file on any template collection site is strictly prohibited. You will need to <a rel="nofollow" href="https://templatemo.com/contact">talk to us</a> for additional permissions about our templates. Thank you.</p>
-                        <a href="about.html" className="tm-btn tm-btn-default tm-right">Read More</a>
+                        <h4 className="tm-gallery-title">Terbukti Terkenal!!!</h4>
+                        <p className="tm-mb-45">See??? Bahkan Jess No Limit dan Sisca Kohl pernah makang disiniii :p. So, tunggu apalagi guys? Pesan jo sekarang! ^^</p>
+                        <a>Mo suka lia sapa-sapa leh yang pernah makang disini? Coba klik di tombol "Lia laeng" di bawah :D</a>
+                        <br></br><br></br><br></br><br></br><br></br><a href="about.html" className="tm-btn tm-btn-default tm-right">Lia laeng</a>
                     </div>
                     </div>
                 </div>
                 </div>
+                <br></br><br></br><br></br>
                 <About />
                 <Contact />
             </main>
