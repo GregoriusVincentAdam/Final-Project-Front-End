@@ -1,5 +1,7 @@
 import React from 'react';
 import "../assets/css/templatemo-style.css";
+import Contact from './Contact';
+
 
 const Homepage = () => {
     return(
@@ -21,7 +23,7 @@ const Homepage = () => {
                         <ul className="tm-nav-ul">
                         <li className="tm-nav-li"><a href="index.html" className="tm-nav-link active">Home</a></li>
                         <li className="tm-nav-li"><a href="about.html" className="tm-nav-link active">About</a></li>
-                        <li className="tm-nav-li"><a href='./Contact.jsx' className="tm-nav-link active">Contact</a></li>
+                        <li className="tm-nav-li"><a href="/src/components/Contact.js" className="tm-nav-link active">Contact</a></li>
                         </ul>
                     </nav>	
                     </div>
