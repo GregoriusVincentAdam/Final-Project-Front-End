@@ -212,13 +212,18 @@ p, address {
 .placeholder {
   width: 100%;
   min-height: 460px;
-  background-color: #556E5B;
+  /* background-color: red !important; */
+  /* background-image: url("https://id.pinterest.com/anisadewirahmawati10/pap-makanan/") !important; */
+  background-image: url("https://merahputih.com/media/e0/27/2a/e0272ad9a975fb5d94184f5bc0e39a05.png") !important;
+  background-position: center !important; /* Center the image */
+  background-repeat: no-repeat !important; /* Do not repeat the image */
+  background-size: cover !important;
 }
 
 .placeholder-2 {
   width: 100%;
   min-height: 220px;
-  background-color: #CFBEA5;
+  background-color: #c98115;
   position: relative;
   z-index: 998;
 }

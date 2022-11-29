@@ -4,20 +4,21 @@ import Contact from './Contact';
 import About from './About';
 
 
+
 const Homepage = () => {
     return(
         <div className="container">
             {/* Top box */}
             {/* Logo & Site Name */}
             <div className="placeholder">
-                <div className="parallax-window" data-parallax="scroll" img="/public/img/simple-house-01.jpg">
+                <div className="parallax-window" data-parallax="scroll">
+                    {/* <img src='../../public/img/simple-house-01.jpg' alt='Cover' /> */}
                 <div className="tm-header">
                     <div className="row tm-header-inner">
-                    <div className="col-md-6 col-12">
-                        <img src="../../public/img/simple-house-logo.png" alt="Logo" className="tm-site-logo" /> 
+                    <div className="col-md-6 col-6">
                         <div className="tm-site-text-box">
-                        <h1 className="tm-site-title">Simple House</h1>
-                        <h6 className="tm-site-description">new restaurant template</h6>	
+                        <h1 className="tm-site-title">Warong Kampoeng</h1>
+                        <h6 className="tm-site-description">Cita Rasa Manado Skali..</h6>	
                         </div>
                     </div>
                     <nav className="col-md-6 col-12 tm-nav">
